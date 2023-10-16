@@ -17,4 +17,5 @@ function removeLeadingTrailing(n) {
       
         return n;
       }
-      console.log(removeLeadingTrailing("230.000"));
+      // console.log(removeLeadingTrailing("230.000"));
+      console.log(removeLeadingTrailing("00402"));
