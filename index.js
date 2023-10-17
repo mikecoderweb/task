@@ -20,8 +20,17 @@ function removeLeadingTrailing(n) {
       console.log(removeLeadingTrailing("230.000"));
       console.log(removeLeadingTrailing("00402"));
 
+
+
       function testjackpot(arr) {
         return arr.every(element => element === arr[0]);
       }
       console.log(testjackpot(["abc", "abc", "abc", "abc"])); 
       console.log(testjackpot(["&&", "&", "&&&", "&&&&"])); 
+
+      function reverseAndNot(i) {
+        const reversed = parseInt(i.toString().split('').reverse().join(''));
+        return parseInt(reversed.toString() + i.toString());
+      }
+
+      console.log(reverseAndNot(152));
